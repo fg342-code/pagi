@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Pagi ☀️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sun"></div>
+        <div class="cloud cloud1">☁️</div>
+        <div class="cloud cloud2">☁️</div>
+
+        <div class="content">
+            <p class="greeting">GOOD MORNING 
+                ANAK IPA
+            </p>
+            
+            <h1>Selamat Pagi!</h1>
+            <p class="message">
+                Awali hari dengan senyuman, semangat baru, dan pikiran positif.
+                <br>
+                Semoga hari ini dipenuhi kebahagiaan, keberuntungan, dan hal-hal baik.
+            </p>
+            <div class="quote">
+                "Setiap pagi adalah kesempatan baru untuk menjadi lebih baik."
+            </div>
+            <button onclick="showMessage()">Klik untuk Semangat!</button>
+            <p id="extra"></p>
+        </div>
+
+        <div class="footer">Have a wonderful day ♡</div>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("extra").innerHTML =
+                "Jangan lupa tersenyum dan tetap semangat hari ini! 🌻";
+        }
+    </script>
+</body>
+</html>
